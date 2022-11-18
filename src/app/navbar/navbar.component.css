@@ -1,0 +1,25 @@
+
+
+#header-logo{
+  background: url("src/assets/img/deftj0s-cff5453e-a88c-4624-a7f9-5b2ae1f579ba.gif") no-repeat center center;
+  background-size: cover;
+  width: 180px
+}
+
+#login{
+  padding-top: 12px;
+}
+
+form {
+    width: 300px;
+    height: 55px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+
+
+
+

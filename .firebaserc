@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "eventapp-1a9b3": {
+      "hosting": {
+        "ticketAPP": [
+          "eventapp-1a9b3"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "eventapp-1a9b3"
+  }
+}
