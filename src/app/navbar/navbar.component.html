@@ -27,22 +27,23 @@
       </div>
     </div>
   </div>
-  
-<form id="form" class="srch search" role="search" routerLink="/login">
-  <input type="search" id="query" name="q"
-   placeholder="Search..."
-   aria-label="Search through site content">
-  <button>Search</button>
-</form>
-</div>
 
-
+ 
+  <form id="form" class="srch search" role="search">
+    <input type="search" id="query" name="q"
+     placeholder="Search..."
+     aria-label="Search through site content">
+    <button>
+      <img src="/assets/img/search-icon1.png" alt="">
+    </button>
+  </form>
+  </div>
 
 
 <!-- RIGHT SIDE -->
 <div class="navbar-end">
   <a class="navbar-item">
-    My Account
+    Discover
   </a>
   <div class="navbar-item has-dropdown is-hoverable">
     <a class="navbar-link">
@@ -66,9 +67,11 @@
   </div>
   </div>
 
+  <!-- <ng-container *ngIf="authService"> </ng-container> -->
+
   <!-- LOGIN -->
   <a  id="login" class="navbar-item srch" routerLink="/login">
-    <img src="assets/img/images.jpeg" alt="">
+    <img src="assets/img/sign-in.png" alt="">
   </a>
 
 

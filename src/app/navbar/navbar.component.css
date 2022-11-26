@@ -18,8 +18,23 @@ form {
     flex-direction: row;
     align-items: center;
   }
+  input[type="search" i] {
+      
+    width: 800px;
+    color: gray;
+    appearance: auto;
+    box-sizing: border-box;
+    padding: 2px 2px;
+}
+
+
+
+
+
   
-
-
-
-
+    body {
+      color: #ffffff;
+      font-size: 1em;
+      font-weight: 900;
+      line-height: 1.5;
+  }
