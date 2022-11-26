@@ -2,13 +2,15 @@
 	<div class="form-container sign-in-container">
 		<form [formGroup]="loginForm" (ngSubmit)="submit()">
 			<h1>Sign in</h1>
-		<mat-form-field> 
-				<input matInput placeholder="Email" formControlName="email"/>
-			</mat-form-field>
+		<mat-form-field appearance="fill"> 
+				<input matInput formControlName="email" placeholder="Enter email">
+				
+				<mat-hint> - at least 15 characters long</mat-hint>
+		</mat-form-field>
 		<mat-error *ngIf="email?.errors?.['email']"> Please enter a valid email</mat-error> 
+		<div></div>
 		<mat-form-field>
-			<input matInput type="password" placeholder="Password" formControlName="password" />
-			<a href="#">Forgot your password?</a>
+			<input matInput formControlName="password" placeholder="Enter Password"/>
 		</mat-form-field>
 		<mat-error *ngIf="password?.errors?.['password']"> A valid password should be 12 characters long</mat-error> 
 			<button type="submit">Sign In</button>
